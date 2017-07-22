@@ -21,3 +21,24 @@ export ZPROJ_ROOT_DIR
 ```
 
 before the plugin is loaded. For now, the plugin won't do anything if ZPROJ_ROOT_DIR isn't set.
+
+
+## Usage
+
+To navigate to any of your projects:
+
+```shell
+project_goto <your_proj_name>
+```
+
+Or if using the built-in aliases
+
+```shell
+goto <your_proj_name>
+```
+
+To remove a project, pass in the name of the project.
+
+```shell
+project_remove <your_proj_name>
+```

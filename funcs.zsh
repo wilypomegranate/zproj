@@ -9,3 +9,14 @@ function project_goto () {
         fi
     fi
 }
+
+function project_remove() {
+    PROJECT=$1
+    if [ -n $1 ]
+    then
+        if [ -d "${ZPROJ_ROOT_DIR}/${PROJECT}" ]
+        then
+            rm -rf "${ZPROJ_ROOT_DIR}/${PROJECT}"
+        fi
+    fi
+}
