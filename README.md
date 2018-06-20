@@ -1,4 +1,4 @@
-zproj is a simple project switcher tool. All of my work is just a directory of various git repositories. I've made some dumb tools in the paste to easily navigate to project directories in the past, but figured I'd formalize it and add some completion as well.
+zproj is a simple project switcher tool. All of my work is just a directory of various git repositories. I've made some dumb tools in the past to easily navigate to project directories in the past, but figured I'd formalize it and add some completion as well.
 
 ## Prerequisites
 
